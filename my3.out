@@ -1,0 +1,9 @@
+READ a
+READ b
+LOAD r1 a
+LOADI r4 #6
+ADD r5 r1 r4
+STORE c r5
+LOADI r8 #5
+STORE d r8
+WRITE d
